@@ -20,9 +20,9 @@ We aim to post the following scripts in the near future:
 
 | Model variant        | Weights           | Usage notes |
 | ------------- |-------------| -----|
-| ResNet50  (#3)  | Being uploaded | [1] |
-| ResNet101 (#4)     |    Being uploaded   |  [1]  |
-| ResNet152 (#5)     |    Being uploaded   |  [1] |
+| ResNet50  (#3)  | Being uploaded [](here) | [1] |
+| ResNet101 (#4)     |    Being uploaded to [](here)   |  [1]  |
+| ResNet152 (#5)     |    Being uploaded to [](here)  |  [1] |
 
 
 Notes:
@@ -37,7 +37,7 @@ Notes:
 04-28_diagnose-mx_p_im:-80_2fd:3_md:004_fz:000_op:2_wt:0.0_dc:07_bs:08_da:10_ls:2_dp:0.0_lr:0.000100_sh:3_tr:3_mk:1_pt:0_db:0_HE_best2.h5
 
 | Character sequence  | Brief description of training configuration |
-| ------------- |:-------------:|
+| ------------- |:-------------|
 | 04-28  |  date the file was created |
 | diagnose-mx | classification task (COPD defined based on FEV1 and FVC measured with maximal values) |
 | \_p | Training dataset ID (i.e. PanCan) |
