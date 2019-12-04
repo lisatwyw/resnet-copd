@@ -1,6 +1,6 @@
 # resnet-copd
 
-This site is under construction.
+<span style="color:red">This site is under construction.</span>
 
 We currently have posted the model weights of ResNets (Python3.6, Keras 2.2.0) that have been trained to detect spirometrically defined Chronic Obstructive Pulmonary Disease (COPD) from a region of a chest computed tomography (CT) scan.
 
