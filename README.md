@@ -20,9 +20,9 @@ We aim to post the following scripts in the near future:
 
 | Model variant        | Weights           |  Notes  |
 | ------------- |-------------| -----|
-| ResNet50  (#3)  | Being uploaded to [https://drive.google.com/drive/u/5/folders/1nrT9MfkIMXCon9YYzRfdVwFNH7dlGdZA](here) | Usage notes below |
-| ResNet101 (#4)     |    Being uploaded to [https://drive.google.com/drive/u/5/folders/1nrT9MfkIMXCon9YYzRfdVwFNH7dlGdZA](here)   |  Usage notes below  |
-| ResNet152 (#5)     |    Being uploaded to [https://drive.google.com/drive/u/5/folders/1nrT9MfkIMXCon9YYzRfdVwFNH7dlGdZA](here)  |   Usage notes below |
+| ResNet50  (#3)  | Being uploaded to [here](https://drive.google.com/drive/u/5/folders/1nrT9MfkIMXCon9YYzRfdVwFNH7dlGdZA) | Usage notes below |
+| ResNet101 (#4)     |    Being uploaded to [here](https://drive.google.com/drive/u/5/folders/1nrT9MfkIMXCon9YYzRfdVwFNH7dlGdZA)   |  Usage notes below  |
+| ResNet152 (#5)     |    Being uploaded to [here](https://drive.google.com/drive/u/5/folders/1nrT9MfkIMXCon9YYzRfdVwFNH7dlGdZA)  |   Usage notes below |
 
 Usage notes:
 1. On ROI inputs:
