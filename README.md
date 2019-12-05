@@ -18,14 +18,13 @@ We aim to post the following scripts in the near future:
 
 ## Models
 
-| Model variant        | Weights           | Usage notes |
+| Model variant        | Weights           |  Notes  |
 | ------------- |-------------| -----|
-| ResNet50  (#3)  | Being uploaded [](here) | [1] |
-| ResNet101 (#4)     |    Being uploaded to [](here)   |  [1]  |
-| ResNet152 (#5)     |    Being uploaded to [](here)  |  [1] |
+| ResNet50  (#3)  | Being uploaded to [https://drive.google.com/drive/u/5/folders/1nrT9MfkIMXCon9YYzRfdVwFNH7dlGdZA](here) | Usage notes below |
+| ResNet101 (#4)     |    Being uploaded to [https://drive.google.com/drive/u/5/folders/1nrT9MfkIMXCon9YYzRfdVwFNH7dlGdZA](here)   |  Usage notes below  |
+| ResNet152 (#5)     |    Being uploaded to [https://drive.google.com/drive/u/5/folders/1nrT9MfkIMXCon9YYzRfdVwFNH7dlGdZA](here)  |   Usage notes below |
 
-
-Notes:
+Usage notes:
 1. On ROI inputs:
 
 - Filenames with character sequence im:-80 use Region ID A as inputs
