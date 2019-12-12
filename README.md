@@ -27,9 +27,9 @@ We aim to post the following scripts in the near future:
 Usage notes:
 1. On ROI inputs:
 
-- Filenames with character sequence im:-80 use Region ID A as inputs
-- Filenames with character sequence im:-60 use Region ID B as inputs
-- Filenames with character sequence im:-40 use Region ID C as inputs
+- Filenames with character sequence im:-80 use Region A as inputs
+- Filenames with character sequence im:-60 use Region B as inputs
+- Filenames with character sequence im:-40 use Region C as inputs
 
 2. Example explaining the coding scheme of filenames:
 
@@ -39,14 +39,18 @@ Usage notes:
 | ------------- |:-------------|
 | 04-28  |  date the file was created |
 | diagnose-mx | classification task (COPD defined based on FEV1 and FVC measured with maximal values) |
-| \_p | Training dataset ID (i.e. PanCan) |
+| \_p | Training dataset ID (p for PanCan; e for ECLIPSE; c for COPDGene) |
 | im:-80 | Region ID (i.e. A) |
-| md:004 | model #4, i.e. ResNet101 |
+| md:004 | model #4 (i.e. ResNet101) |
 | fz:000 | no freezing of layers|
 | op:2| optimization algorithm #2 |
-| dc:07 | decay scheme 7|
-| bs:08: | batch size of 8|
+| dc:07 | decay scheme 7 See [note 3] |
+| bs:08 | training done with batch size of 8|
 | da:10 | data augmentation using random spatial transformations parameterized by value of 10 |
 | lr:0.000100 | learning rate |
 | sh:3 | shuffling scheme |
-| mk:1| masking was done|
+| mk:1 | masking was done|
+
+
+3. Decay schemes tested:
+- 7-9: Cyclic learning rate
