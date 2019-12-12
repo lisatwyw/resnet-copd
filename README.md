@@ -1,4 +1,4 @@
-# Resnets for COPD
+# ResNets for COPD
 
 <span style="color:red">This site is under construction.</span>
 
@@ -41,7 +41,7 @@ Usage notes:
 | im:-80 | Region ID (i.e. A) |
 | md:004 | model #4 (i.e. ResNet101) |
 | fz:000 | no freezing of layers|
-| op:2| optimization algorithm #2 |
+| op:2| optimization algorithm #2 (Stochastic gradient descent) |
 | dc:07 | decay scheme 7 See [note 3] |
 | bs:08 | training done with batch size of 8|
 | da:10 | data augmentation using random spatial transformations parameterized by value of 10 |
@@ -51,4 +51,7 @@ Usage notes:
 
 
 3. Decay schemes tested:
-- 7-9: Cyclic learning rate
+- 1: exponential decay
+- 2: step decay
+- 3: polynomial decay
+- 4-9: schemes of cyclic learning rate
