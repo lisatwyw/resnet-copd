@@ -2,7 +2,7 @@
 
 <span style="color:red">This site is under construction.</span>
 
-We have posted model weights of various ResNets (Python3.6, Keras 2.2.0) that have been trained to detect spirometrically defined Chronic Obstructive Pulmonary Disease (COPD) from a region of a chest computed tomography (CT) scan. Input regions of size 224 x 224 x 3 were used. More details of the entire pipeline and validation experiments conducted on the datasets listed below will be posted in the near future (ETA of March 2020).
+We have posted model weights of various ResNets (Python3.6, Keras 2.2.0) that have been trained to detect spirometrically defined Chronic Obstructive Pulmonary Disease (COPD) from a region of a chest computed tomography (CT) scan. Input regions of size 224 x 224 x 3 were used. More details of the entire pipeline and validation experiments conducted on the datasets listed below will be posted in the near future (ETA of May 2020).
 
 ## Datasets employed for model development and external validation 
 1. [Evaluation of COPD Longitudinally to Identify Predictive Surrogate End-points (ECLIPSE)](http://eclipse-copd.com)
@@ -31,7 +31,7 @@ Usage notes:
 
 2. Example explaining the coding scheme of filenames:
 
-04-28_diagnose-mx_p_im:-80_2fd:3_md:004_fz:000_op:2_wt:0.0_dc:07_bs:08_da:10_ls:2_dp:0.0_lr:0.000100_sh:3_tr:3_mk:1_pt:0_db:0_HE_best2.h5
+```04-28_diagnose-mx_p_im:-80_2fd:3_md:004_fz:000_op:2_wt:0.0_dc:07_bs:08_da:10_ls:2_dp:0.0_lr:0.000100_sh:3_tr:3_mk:1_pt:0_db:0_HE_best2.h5```
 
 | Character sequence  | Brief description of training configuration |
 | ------------- |:-------------|
