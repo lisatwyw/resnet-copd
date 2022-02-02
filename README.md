@@ -7,7 +7,7 @@ We have posted model weights of various ResNets (Python3.6, Keras 2.2.0) that ha
 2. [Pan-Canadian Early Detection of Lung Cancer (PanCan)](https://www.tfri.ca/our-research/research-project/early-detection-of-lung-cancer---a-pan-canadian-study)
 
 ## Upload schedule ## 
-We aim to post the following scripts in the near future:
+We aim to post the following scripts in the future:
 - spatial normalization (via the ANTS image registration toolkit)
 - lung mask generation (Python 3.6)
 
