@@ -6,10 +6,9 @@ We have posted model weights of various ResNets (Python3.6, Keras 2.2.0) that ha
 1. [Evaluation of COPD Longitudinally to Identify Predictive Surrogate End-points (ECLIPSE)](http://eclipse-copd.com)
 2. [Pan-Canadian Early Detection of Lung Cancer (PanCan)](https://www.tfri.ca/our-research/research-project/early-detection-of-lung-cancer---a-pan-canadian-study)
 
-## Upload schedule ## 
-We aim to post the following scripts in the future:
-- spatial normalization (via the ANTS image registration toolkit)
-- lung mask generation (Python 3.6)
+## Considerations ## 
+- Spatial normalization was performed using ANTS' image registration toolkit
+- Lung mask generation (Python 3.6)
 
 ## Models
 
