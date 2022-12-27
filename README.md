@@ -7,7 +7,13 @@ We have posted model weights of various ResNets (Python3.6, Keras 2.2.0) that ha
 2. [Pan-Canadian Early Detection of Lung Cancer (PanCan)](https://www.tfri.ca/our-research/research-project/early-detection-of-lung-cancer---a-pan-canadian-study)
 
 ## Considerations ## 
-- Spatial normalization was performed using ANTS' image registration toolkit
+- Spatial normalization was performed using ANTS' image registration toolkit:
+  ```  
+  # image registrations using mean squared difference with sampling rates of 1 and 0.3 when searching for rigid and affine transform parameters, respectively
+  
+  bash imreg.sh ants ${refmask} 0 ${d} 0 0 ${reg_result} ra MSQ 1 MSQ 1 .3 2 32 0 1 2 0 0 
+  ```
+  
 - Lung mask generation (Python 3.6)
 
 ## Models
